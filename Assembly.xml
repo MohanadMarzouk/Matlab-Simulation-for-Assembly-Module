@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="Lenovo" on="01/28/21||18:23:22" using="Simscape Multibody Link Version 5.2" from="Autodesk Inventor 2019 (Build 230136000, 136)"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="centimeter"/>
+<RootAssembly name="Assembly" uid="Assembly_{F622FE3D-4994-0258-0B54-AB8325826021}" version="{02105124-A2E0-4FDF-416C-7EFF166757CD}">
+<AssemblyFile name="Assembly.iam" type="Inventor Assembly"/>
+<InstanceTree>
+<Instance name="Assembly moving parts:1" uid="Assembly moving parts:1" entityUid="Assembly moving parts_{558491F9-4055-1D89-06EA-FFB045F50697}">
+<Transform>
+<Rotation>0.99999999999999822 9.0205620750793693e-16 -2.3274965979325311e-16 -1.8041124150158503e-16 0.999999999999998 2.4278144682446075e-16 7.9614370175311663e-16 0 0.99999999999999722</Rotation>
+<Translation>-6.0609403302974076 -0.13694884517844053 -11.88776570542956</Translation>
+</Transform>
+</Instance>
+<Instance name="Assembly_for_matlab:1" grounded="true" uid="Assembly_for_matlab:1" entityUid="Assembly_for_matlab_{65D8727F-476A-4B02-859F-7785C5ED5C07}">
+<Transform>
+<Rotation>1 0 0 0 1 2.4278144682445661e-16 0 -2.4278144682445661e-16 1</Rotation>
+<Translation>-6.0609403302974147 -0.13694884517844289 -10.567882767636027</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Mate:1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assembly moving parts:1</Uid>
+</InstancePath>
+<Position>2.3306690911255834 0.32726052308838594 14.31563081500261</Position>
+<Axis>1.4184973011957763e-16 2.1502587120883178e-16 -1.0000000000000029</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assembly_for_matlab:1</Uid>
+</InstancePath>
+<Position>2.3306690911255883 0.32726052308838849 16.650000000000002</Position>
+<Axis>2.4150483050117694e-16 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Mate:2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assembly moving parts:1</Uid>
+</InstancePath>
+<Position>6.3306690911255803 0.32726052308838383 14.248130815002611</Position>
+<Axis>2.0263177753994331e-16 0 -1.0000000000000029</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assembly_for_matlab:1</Uid>
+</InstancePath>
+<Position>6.3306690911255732 0.32726052308838327 0.30000000000000071</Position>
+<Axis>4.2994647998923363e-16 2.8447776761996834e-16 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+<Joints>
+</Joints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Assembly moving parts" uid="Assembly moving parts_{558491F9-4055-1D89-06EA-FFB045F50697}" version="{2AC70E7F-E4BF-7C65-D279-FFCE8F44237F}">
+<ModelUnits mass="lbmass" length="inch"/>
+<PartFile name="Assembly moving parts.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.096031410674306539</Mass>
+<CenterOfMass>2.3322894544436275 -3.7904545552025311 13.007202036533943</CenterOfMass>
+<Inertia>2.0497129136392869 0.87430665299988686 2.6223043919813218 -0.29897456255197724 0.00035429736703463278 -0.00086168863609316305</Inertia>
+</MassProperties>
+<GeometryFile name="Assembly moving parts_ipt_4e2c9623.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Assembly_for_matlab" uid="Assembly_for_matlab_{65D8727F-476A-4B02-859F-7785C5ED5C07}" version="{72337446-1929-34D3-EDAB-DF098CE51E20}">
+<ModelUnits mass="lbmass" length="inch"/>
+<PartFile name="Assembly_for_matlab.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.45071423049284087</Mass>
+<CenterOfMass>2.2488045975931712 2.1105632714204465 6.9510638881750983</CenterOfMass>
+<Inertia>36.032039249994668 40.334277555269999 13.764600969515413 2.248186951567972 0.41360203728645317 0.027811061504863118</Inertia>
+</MassProperties>
+<GeometryFile name="Assembly_for_matlab_ipt_7f8aa80a.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
